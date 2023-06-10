@@ -17,11 +17,12 @@
 		907DAD242A33417D004395B5 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DAD232A33417C004395B5 /* Comment.swift */; };
 		907DAD262A3341CE004395B5 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DAD252A3341CE004395B5 /* MainPresenter.swift */; };
 		907DAD2C2A3346ED004395B5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907DAD2B2A3346ED004395B5 /* MainViewController.xib */; };
-		907DAD2E2A3347F5004395B5 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DAD2D2A3347F5004395B5 /* ModuleBuilder.swift */; };
+		907DAD2E2A3347F5004395B5 /* AssemblyModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DAD2D2A3347F5004395B5 /* AssemblyModuleBuilder.swift */; };
 		907DAD302A345CD3004395B5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DAD2F2A345CD3004395B5 /* NetworkService.swift */; };
 		907DAD332A346416004395B5 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DAD322A346416004395B5 /* DetailPresenter.swift */; };
 		907DAD382A346CE9004395B5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DAD362A346CE9004395B5 /* DetailViewController.swift */; };
 		907DAD392A346CE9004395B5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907DAD372A346CE9004395B5 /* DetailViewController.xib */; };
+		907DAD3C2A3472C0004395B5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907DAD3B2A3472C0004395B5 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +38,12 @@
 		907DAD232A33417C004395B5 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		907DAD252A3341CE004395B5 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		907DAD2B2A3346ED004395B5 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		907DAD2D2A3347F5004395B5 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		907DAD2D2A3347F5004395B5 /* AssemblyModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyModuleBuilder.swift; sourceTree = "<group>"; };
 		907DAD2F2A345CD3004395B5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		907DAD322A346416004395B5 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		907DAD362A346CE9004395B5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		907DAD372A346CE9004395B5 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		907DAD3B2A3472C0004395B5 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,8 @@
 			children = (
 				907DAD0D2A33205B004395B5 /* AppDelegate.swift */,
 				907DAD0F2A33205B004395B5 /* SceneDelegate.swift */,
-				907DAD2D2A3347F5004395B5 /* ModuleBuilder.swift */,
+				907DAD2D2A3347F5004395B5 /* AssemblyModuleBuilder.swift */,
+				907DAD3B2A3472C0004395B5 /* Router.swift */,
 				907DAD352A346C9D004395B5 /* DetailModule */,
 				907DAD312A345CF6004395B5 /* ServiceLayer */,
 				907DAD272A334647004395B5 /* MainModule */,
@@ -234,12 +237,13 @@
 			files = (
 				907DAD382A346CE9004395B5 /* DetailViewController.swift in Sources */,
 				907DAD262A3341CE004395B5 /* MainPresenter.swift in Sources */,
+				907DAD3C2A3472C0004395B5 /* Router.swift in Sources */,
 				907DAD122A33205B004395B5 /* MainViewController.swift in Sources */,
 				907DAD0E2A33205B004395B5 /* AppDelegate.swift in Sources */,
 				907DAD332A346416004395B5 /* DetailPresenter.swift in Sources */,
 				907DAD242A33417D004395B5 /* Comment.swift in Sources */,
 				907DAD102A33205B004395B5 /* SceneDelegate.swift in Sources */,
-				907DAD2E2A3347F5004395B5 /* ModuleBuilder.swift in Sources */,
+				907DAD2E2A3347F5004395B5 /* AssemblyModuleBuilder.swift in Sources */,
 				907DAD302A345CD3004395B5 /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
